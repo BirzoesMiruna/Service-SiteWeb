@@ -1,0 +1,7 @@
+<div class="grid">
+  <article class="card" *ngFor="let s of servicii">
+    <img *ngIf="s.imagineUrl" [src]="s.imagineUrl" [alt]="s.nume" class="thumb">
+    <h3>{{ s.nume }}</h3>
+    <p>{{ s.descriere }}</p>
+  </article>
+</div>

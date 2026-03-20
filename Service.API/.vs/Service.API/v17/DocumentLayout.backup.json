@@ -1,0 +1,225 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\SITE_SERVICE\\Service.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7F2159C2-554A-4BAB-B9CB-B051EBEFEAEF}|Service.API.csproj|c:\\site_service\\service.api\\controllers\\recenziicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F2159C2-554A-4BAB-B9CB-B051EBEFEAEF}|Service.API.csproj|solutionrelative:controllers\\recenziicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F2159C2-554A-4BAB-B9CB-B051EBEFEAEF}|Service.API.csproj|c:\\site_service\\service.api\\models\\recenzie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F2159C2-554A-4BAB-B9CB-B051EBEFEAEF}|Service.API.csproj|solutionrelative:models\\recenzie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F2159C2-554A-4BAB-B9CB-B051EBEFEAEF}|Service.API.csproj|c:\\site_service\\service.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F2159C2-554A-4BAB-B9CB-B051EBEFEAEF}|Service.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F2159C2-554A-4BAB-B9CB-B051EBEFEAEF}|Service.API.csproj|c:\\site_service\\service.api\\controllers\\serviciicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F2159C2-554A-4BAB-B9CB-B051EBEFEAEF}|Service.API.csproj|solutionrelative:controllers\\serviciicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F2159C2-554A-4BAB-B9CB-B051EBEFEAEF}|Service.API.csproj|c:\\site_service\\service.api\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F2159C2-554A-4BAB-B9CB-B051EBEFEAEF}|Service.API.csproj|solutionrelative:migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F2159C2-554A-4BAB-B9CB-B051EBEFEAEF}|Service.API.csproj|c:\\site_service\\service.api\\models\\serviciu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F2159C2-554A-4BAB-B9CB-B051EBEFEAEF}|Service.API.csproj|solutionrelative:models\\serviciu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F2159C2-554A-4BAB-B9CB-B051EBEFEAEF}|Service.API.csproj|c:\\site_service\\service.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F2159C2-554A-4BAB-B9CB-B051EBEFEAEF}|Service.API.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F2159C2-554A-4BAB-B9CB-B051EBEFEAEF}|Service.API.csproj|c:\\site_service\\service.api\\migrations\\20250808092745_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F2159C2-554A-4BAB-B9CB-B051EBEFEAEF}|Service.API.csproj|solutionrelative:migrations\\20250808092745_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F2159C2-554A-4BAB-B9CB-B051EBEFEAEF}|Service.API.csproj|c:\\site_service\\service.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7F2159C2-554A-4BAB-B9CB-B051EBEFEAEF}|Service.API.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F2159C2-554A-4BAB-B9CB-B051EBEFEAEF}|Service.API.csproj|c:\\site_service\\service.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7F2159C2-554A-4BAB-B9CB-B051EBEFEAEF}|Service.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F2159C2-554A-4BAB-B9CB-B051EBEFEAEF}|Service.API.csproj|c:\\site_service\\service.api\\service.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7F2159C2-554A-4BAB-B9CB-B051EBEFEAEF}|Service.API.csproj|solutionrelative:service.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 193,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Recenzie.cs",
+              "DocumentMoniker": "C:\\SITE_SERVICE\\Service.API\\Models\\Recenzie.cs",
+              "RelativeDocumentMoniker": "Models\\Recenzie.cs",
+              "ToolTip": "C:\\SITE_SERVICE\\Service.API\\Models\\Recenzie.cs",
+              "RelativeToolTip": "Models\\Recenzie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T09:14:37.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\SITE_SERVICE\\Service.API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\SITE_SERVICE\\Service.API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T09:23:48.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServiciiController.cs",
+              "DocumentMoniker": "C:\\SITE_SERVICE\\Service.API\\Controllers\\ServiciiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ServiciiController.cs",
+              "ToolTip": "C:\\SITE_SERVICE\\Service.API\\Controllers\\ServiciiController.cs",
+              "RelativeToolTip": "Controllers\\ServiciiController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T09:34:02.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RecenziiController.cs",
+              "DocumentMoniker": "C:\\SITE_SERVICE\\Service.API\\Controllers\\RecenziiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RecenziiController.cs",
+              "ToolTip": "C:\\SITE_SERVICE\\Service.API\\Controllers\\RecenziiController.cs",
+              "RelativeToolTip": "Controllers\\RecenziiController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAUwFMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T09:35:27.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\SITE_SERVICE\\Service.API\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\SITE_SERVICE\\Service.API\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T08:03:07.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Serviciu.cs",
+              "DocumentMoniker": "C:\\SITE_SERVICE\\Service.API\\Models\\Serviciu.cs",
+              "RelativeDocumentMoniker": "Models\\Serviciu.cs",
+              "ToolTip": "C:\\SITE_SERVICE\\Service.API\\Models\\Serviciu.cs",
+              "RelativeToolTip": "Models\\Serviciu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T08:49:18.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\SITE_SERVICE\\Service.API\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\SITE_SERVICE\\Service.API\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T09:18:00.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20250808092745_InitialCreate.cs",
+              "DocumentMoniker": "C:\\SITE_SERVICE\\Service.API\\Migrations\\20250808092745_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250808092745_InitialCreate.cs",
+              "ToolTip": "C:\\SITE_SERVICE\\Service.API\\Migrations\\20250808092745_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20250808092745_InitialCreate.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T09:27:45.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\SITE_SERVICE\\Service.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\SITE_SERVICE\\Service.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-08T09:45:14.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\SITE_SERVICE\\Service.API\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\SITE_SERVICE\\Service.API\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAB+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-08T09:19:22.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Service.API.csproj",
+              "DocumentMoniker": "C:\\SITE_SERVICE\\Service.API\\Service.API.csproj",
+              "RelativeDocumentMoniker": "Service.API.csproj",
+              "ToolTip": "C:\\SITE_SERVICE\\Service.API\\Service.API.csproj",
+              "RelativeToolTip": "Service.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-08T08:34:07.641Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

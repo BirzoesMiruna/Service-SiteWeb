@@ -1,0 +1,58 @@
+/* HERO */
+.about-hero{
+  display:grid; grid-template-columns: 1.2fr .8fr; gap:1.5rem; align-items:center;
+}
+.about-hero__media{ overflow:hidden; }
+.about-hero__media img{ width:100%; height:100%; object-fit:cover; border-radius:16px; }
+
+.about-cta{ display:flex; gap:.7rem; flex-wrap:wrap; margin-top:1rem; }
+
+/* INTRO + STATS */
+.about-intro{ padding:1rem; }
+.about-intro__grid{ display:grid; grid-template-columns: 1.2fr .8fr; gap:1rem; align-items:start; }
+.about-list{ margin:.75rem 0 0; padding-left:1.1rem; }
+.about-stats{ display:grid; grid-template-columns: repeat(3, 1fr); gap:.8rem; }
+.stat{ padding:1rem; text-align:center; }
+.stat__num{ font-size:1.6rem; font-weight:800; }
+.stat__label{ color:#a8b4c5; }
+
+/* VALORI */
+.values{
+  display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap:1rem;
+}
+.value{ padding:1rem; text-align:left; }
+.value__icon{ font-size:1.8rem; line-height:1; }
+
+/* TIMELINE */
+.timeline{ list-style:none; margin:0; padding:0; border-left:2px solid #22324b; }
+.timeline__item{ position:relative; margin-left:1rem; padding-left:1rem; margin-bottom:1rem; }
+.timeline__dot{
+  position:absolute; left:-10px; top:.6rem;
+  width:12px; height:12px; border-radius:50%;
+  background:#3b82f6; box-shadow:0 0 0 4px rgba(59,130,246,.25);
+}
+.timeline__content{ padding:.9rem; }
+
+/* ECHIPĂ */
+.about-team .team-grid{
+  display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap:1rem;
+}
+.team img{ width:100%; height:180px; object-fit:cover; border-top-left-radius:16px; border-top-right-radius:16px; }
+.team__body{ padding:.8rem 1rem; }
+
+/* FINAL CTA */
+.about-final{ padding:1rem; }
+.about-final__row{ display:flex; align-items:center; justify-content:space-between; gap:1rem; }
+
+/* Responsive */
+@media (max-width: 980px){
+  .about-hero{ grid-template-columns:1fr; }
+  .about-intro__grid{ grid-template-columns:1fr; }
+  .about-stats{ grid-template-columns: repeat(3, minmax(0,1fr)); }
+}
+@media (max-width: 680px){
+  .about-stats{ grid-template-columns: 1fr 1fr; }
+  .about-final__row{ flex-direction:column; align-items:flex-start; }
+}

@@ -1,0 +1,83 @@
+<section class="reviews container-xxl">
+  <div class="reviews__header">
+    <div>
+      <h2 class="reviews__title">Recenzii</h2>
+      <p class="reviews__subtitle">Spune-ne cum a fost experiența ta la <strong>Service Auto</strong>.</p>
+    </div>
+
+    <div class="reviews__toolbar">
+      <button class="btn btn--primary" (click)="toggleForm()">
+        {{ showForm ? 'Închide formularul' : 'Adaugă recenzie' }}
+      </button>
+    </div>
+  </div>
+
+  <!-- Formular -->
+  <form *ngIf="showForm"
+        class="card form-card"
+        [formGroup]="form"
+        (ngSubmit)="submit()">
+    <div class="form-grid">
+      <div class="form-row">
+        <label>Serviciu</label>
+        <select formControlName="serviciuId">
+          <option value="" disabled>— alege serviciul —</option>
+          <option *ngFor="let s of servicii" [value]="s.id">{{ s.nume }}</option>
+        </select>
+        <small class="hint error"
+               *ngIf="form.controls.serviciuId.touched && form.controls.serviciuId.invalid">
+          Te rog alege serviciul.
+        </small>
+      </div>
+
+      <div class="form-row">
+        <label>Rating</label>
+        <select formControlName="rating">
+          <option *ngFor="let r of [5,4,3,2,1]" [value]="r">{{ r }} ★</option>
+        </select>
+      </div>
+
+      <div class="form-row form-row--full">
+        <label>Comentariu</label>
+        <textarea rows="4" formControlName="text" placeholder="Spune-ne experiența ta..."></textarea>
+        <small class="hint error"
+               *ngIf="form.controls.text.touched && form.controls.text.invalid">
+          Min 10 caractere, max 800.
+        </small>
+      </div>
+    </div>
+
+    <div class="form-actions">
+      <button class="btn btn--primary" type="submit" [disabled]="form.invalid || submitting">
+        {{ submitting ? 'Trimit...' : 'Trimite recenzia' }}
+      </button>
+      <p class="hint ok" *ngIf="success">{{ success }}</p>
+      <p class="hint error" *ngIf="error">{{ error }}</p>
+    </div>
+  </form>
+
+  <!-- Loading / error -->
+  <div *ngIf="loading" class="state">Se încarcă…</div>
+  <div *ngIf="error" class="state state--err">{{ error }}</div>
+
+  <!-- Lista de recenzii -->
+  <div class="cards-grid" *ngIf="!loading && !error">
+    <article class="card review-card" *ngFor="let r of recenzii">
+      <header class="review-card__head">
+        <span class="badge">{{ serviceName(r.serviciuId) }}</span>
+
+        <div class="stars" [attr.aria-label]="r.rating + ' din 5'"
+             [style.--fill]="(r.rating/5)*100 + '%'">
+          ★★★★★
+        </div>
+      </header>
+
+      <p class="review-card__text">{{ r.text }}</p>
+
+      <footer class="review-card__meta">
+        <small class="date">{{ r.createdAt | date:'dd MMM yyyy' }}</small>
+        <small class="rating">{{ r.rating }}/5</small>
+      </footer>
+    </article>
+  </div>
+</section>

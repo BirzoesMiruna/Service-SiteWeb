@@ -1,0 +1,82 @@
+<!-- HERO -->
+<section class="hero container section">
+  <div class="hero-text">
+    <h1>Service auto de încredere</h1>
+    <p>
+      Service Auto – oferă reparații și întreținere pentru toate tipurile de autovehicule, folosind echipamente moderne și piese de calitate. Echipa noastră de mecanici calificați garantează servicii rapide, sigure și la prețuri corecte, pentru ca tu să te bucuri de o mașină în perfectă stare de funcționare.
+    </p>
+
+    <div class="hero-buttons">
+      <!-- Trimite la Contact -->
+      <a class="btn btn-primary"
+         routerLink="/contact"
+         aria-label="Programează-te la service">
+        Programează-te
+      </a>
+
+      <!-- Trimite la Servicii -->
+      <a class="btn btn-secondary"
+         routerLink="/servicii"
+         aria-label="Vezi serviciile disponibile">
+        Vezi serviciile
+      </a>
+    </div>
+  </div>
+
+  <div class="hero-logo">
+    <img src="/sigla_site.png" alt="Sigla Service Auto">
+  </div>
+</section>
+
+
+
+<!-- SERVICII TOP -->
+<section class="container section">
+  <header class="section-head">
+    <h2>Servicii populare</h2>
+    <a routerLink="/servicii" class="link">Toate serviciile →</a>
+  </header>
+
+  <div class="srv-grid" *ngIf="serviciiTop.length">
+    <a class="srv-card" *ngFor="let s of serviciiTop" routerLink="/servicii">
+      <div class="thumb">
+        <img [src]="s.imagineUrl" [alt]="s.nume" loading="lazy" />
+      </div>
+      <h3>{{ s.nume }}</h3>
+      <p class="muted">{{ s.descriere }}</p>
+    </a>
+  </div>
+</section>
+
+
+<!-- CTA BARĂ -->
+<section class="cta">
+  <div class="container cta-inner">
+    <h3>Ai nevoie de o programare rapidă?</h3>
+    <div class="row">
+      <a class="btn" routerLink="/contact">Sună / Programează-te</a>
+      <a class="btn-ghost" routerLink="/recenzii" [queryParams]="{ add: 1 }">Lasă o recenzie</a>
+    </div>
+  </div>
+</section>
+
+<!-- INFO: PROGRAM & LOCAȚIE -->
+<section class="container section two-col">
+  <div class="card info">
+    <h3>Program:</h3>
+    <ul class="list">
+      <li>Luni–Vineri: 09:00 – 17:00</li>
+      <li>Sâmbătă: 09:00 – 14:00</li>
+      <li>Duminică: închis</li>
+    </ul>
+  </div>
+
+  <div class="card map">
+    <h3>Ne găsești aici</h3>
+    <!-- pune adresa ta reală în query -->
+    <iframe
+      src="https://www.google.com/maps?q=service%20auto%20Botoșani&output=embed
+"
+      loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</section>

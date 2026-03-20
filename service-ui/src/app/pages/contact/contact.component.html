@@ -1,0 +1,79 @@
+<section class="container section contact">
+  <header class="contact__head">
+    <div>
+      <h1>Contact</h1>
+      <p class="muted">Suntem aici să te ajutăm cu programări, oferte și informații.</p>
+    </div>
+
+    <div class="quick">
+      <a class="btn btn-primary" href="tel:+40741111111" aria-label="Sună acum">📞 Sună</a>
+      <a class="btn btn-secondary" target="_blank"
+         href="https://wa.me/40741111111?text=Bună!%20Aș%20dori%20o%20programare."
+         rel="noopener">💬 WhatsApp</a>
+      <a href="mailto:contact&#64;serviceauto.ro">contact&#64;serviceauto.ro</a>
+    </div>
+  </header>
+
+  <div class="grid">
+    <!-- Info -->
+    <aside class="card info">
+      <h2>Informații</h2>
+      <ul class="list">
+        <li><strong>Adresă:</strong> Str. BlaBla 100, Botoșani</li>
+        <li><strong>Telefon:</strong> <a href="tel:+40741111111"> 0741 111 111</a></li>
+        <li><strong>Email:</strong> <a href="mailto:contact&#64;serviceauto.ro"> contact&#64;serviceauto.ro</a></li>
+      </ul>
+
+      <h3>Program</h3>
+      <ul class="list muted">
+        <li>Luni–Vineri: 09:00–17:00</li>
+        <li>Sâmbătă: 09:00–14:00</li>
+        <li>Duminică: închis</li>
+      </ul>
+
+      <div class="map card">
+        <iframe
+          src="https://www.google.com/maps?q=service%20auto%20Botoșani&output=embed"
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          title="Harta Service Auto"></iframe>
+      </div>
+    </aside>
+
+    <!-- Formular simplu (fără Reactive Forms) -->
+    <section class="card form-card">
+      <h2>Trimite-ne un mesaj</h2>
+
+      <form class="form" action="#" method="post" novalidate>
+        <div class="row">
+          <label for="nume">Nume *</label>
+          <input id="nume" name="nume" type="text" placeholder="Numele tău" required minlength="2">
+          <small class="err" hidden>Minim 2 caractere.</small>
+        </div>
+
+        <div class="row two">
+          <div>
+            <label for="email">Email *</label>
+            <input id="email" name="email" type="email" placeholder="email&#64;exemplu.ro" required>
+            <small class="err" hidden>Email invalid.</small>
+          </div>
+          <div>
+            <label for="telefon">Telefon</label>
+            <input id="telefon" name="telefon" type="tel" placeholder="07xx xxx xxx"
+                   pattern="^(\+4)?0[0-9]{9}$">
+          </div>
+        </div>
+
+        <div class="row">
+          <label for="mesaj">Mesaj *</label>
+          <textarea id="mesaj" name="mesaj" rows="5" required minlength="10" maxlength="1000"
+                    placeholder="Spune-ne pe scurt care este problema sau ce serviciu dorești."></textarea>
+          <small class="err" hidden>Min 10 caractere, max 1000.</small>
+        </div>
+
+        <div class="actions">
+          <button class="btn btn-primary" type="submit">Trimite mesajul</button>
+        </div>
+      </form>
+    </section>
+  </div>
+</section>
